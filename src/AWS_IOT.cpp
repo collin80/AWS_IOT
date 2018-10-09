@@ -55,7 +55,7 @@ and that both those copyright notices and this permission notice appear in suppo
 static const char *TAG = "AWS_IOT";
 char AWS_IOT_HOST_ADDRESS[128];
 
-char cPayload[512];
+char cPayload[2048];
 AWS_IoT_Client client;
 IoT_Publish_Message_Params paramsQOS0;
 pSubCallBackHandler_t subApplCallBackHandler = 0;
